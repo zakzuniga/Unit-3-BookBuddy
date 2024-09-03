@@ -1,0 +1,103 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+#logo-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Add your own custom styles here */
+
+h1 {
+  text-align: center;
+  color: #8B4513; /* Saddle Brown  */
+  font-family: 'Merriweather', serif; 
+  margin-bottom: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: #2f4f4f; /* Dark Slate Gray */
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #f4f1ea; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #8B4513; /* Saddle Brown on hover */
+}
+
+/* Main Content Styles */
+.books-list, .book-details, .account {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.books-list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.books-list li, .account ul li {
+  background-color: #e7d3bb; /* Light brown for aged feel */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.book-item img, .account img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.book-item h3, .account p strong {
+  color: #8B4513; /* Saddle Brown */
+}
+
+.checkout-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #8B4513; /* Saddle Brown */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkout-button:hover {
+  background-color: #5c3317; /* Darker shade on hover */
+}
+
+.error-message {
+  color: #b22222; /* Red for error messages */
+}
+
+.success-message {
+  color: #228b22; /* Forest Green for success messages */
+}
